@@ -174,7 +174,7 @@ const prompt = () => {
                     WHERE first_name = ?;`;
         const EmployeeNewRole = response.EmployeeNewRole;
         const EmployeeName = response.EmployeeName;
-        // Adds role to the database
+        // Update employee's role in the database
         db.query(sql, [EmployeeNewRole, EmployeeName], function (err, results) {
           console.log(
             `${EmployeeName}'s role was changed to ${EmployeeNewRole}!`
