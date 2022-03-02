@@ -4,7 +4,7 @@ In this assignment, our task was to create a command-line CMS to manage a compan
 
 When the user runs the application, they are prompted to view all employees, add an employee, update an employee role, view all roles, add a role, view all departments and add a department. When the user enters the respective information, the changes are then made in the database.
 
-JavaScript | Node.js
+JavaScript | Node.js | MySQL
 
 # Link
 
